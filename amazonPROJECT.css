@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 90px;
+    background-color: #0f1111;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 120px;
+    border: 2px solid black;
+    margin-left: 15px;
+}
+.logo{
+    height: 50px;
+    width: 120px;
+    background-image: url(/HTML/amazonPROJECT/amazon_logo.png);
+    background-size: cover;
+    position: relative;
+    bottom: 7px;
+}
+.nav-logo:hover{
+    border: 2px solid white;
+}
+
+/*Box - 2 */
+
+.Deliver{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    text-align: right;
+}
+.India{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.location-logo{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-location{
+    border: 2px solid black;
+    height: 50px;
+    width: 80px;
+}
+.nav-location:hover{
+    border: 2px solid white;
+}
+
+/***** BOX - 3 ****/
+
+.nav-search{
+    display: flex;
+    width: 700px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.search-select{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 600px;
+    height: 38px;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 27px;
+    background-color: orange;
+    color: black;
+}
+
+/**** BOX - 4 ****/
+
+.account{
+
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    
+}
+.Hello{
+    font-size: 12px;
+    padding-left: 5px;
+}
+.nav-signin{
+    height: 50px;
+    border: 1.5px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-signin:hover{
+    border: 2px solid white;
+}
+
+
+/**** BOX - 5 ****/
+
+.return{
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.order{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.return-order{
+    border: 2px solid transparent;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.return-order:hover{
+    border: 2px solid white;
+    
+}
+
+/**** BOX - 6 ****/
+
+.mycart{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+}
+
+.mycart:hover{
+    border: 2px solid white;
+}
+
+.gadi{
+    font-size: 32px;
+}
+
+
+/**** 2nd Box.... Box-1 ****/
+
+.All3bar{
+    background-color: #1e2f2f;
+    color: white;
+    height: 39px;
+    width: 60px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1.5px solid #1e2f2f ;
+    margin-left: 3px;
+}
+
+.All3bar:hover{
+    border: 1.5px solid white;
+    border-bottom: 0px;
+}
+.bar{
+     font-size: 25px;
+}
+
+.all{
+    font-size: 17px;
+    height: 22px;
+    width: 18px;
+}
+
+/**** 2nd Box.... Box-2 ****/
+
+.boxpart2{
+    height: 41px;
+    width: 1352px;
+    background-color: #1e2f2f;
+    color: white;
+    margin-left: 65px;
+    margin-top: -41px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.todaydeal{
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1.5px solid #1e2f2f;
+    height: 39px;
+    display: flex;
+    align-items: center;
+}
+
+.todaydeal:hover{
+    border: 1.5px solid white;
+    border-bottom: 0px;
+}
+
+.customer{
+    font-size: 13px;
+    height: 39px;
+    border: 1.5px solid #1e2f2f;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.customer:hover{
+    border: 1.5px solid white;
+    border-bottom: 0px;
+}
+
+.register{
+    font-size: 13px;
+    height: 39px;
+    border: 1.5px solid #1e2f2f;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.register:hover{
+    border: 1.5px solid white;
+    border-bottom: 0px;
+}
+
+.gift{
+    font-size: 13px;
+    height: 39px;
+    border: 1.5px solid #1e2f2f;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gift:hover{
+    border: 1.5px solid white;
+    border-bottom: 0px;
+}
+
+.sell{
+    font-size: 13px;
+    height: 39px;
+    border: 1.5px solid #1e2f2f;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sell:hover{
+    border: 1.5px solid white;
+    border-bottom: 0px;
+}
+
+/****  Box - 3 (Main) ****/
+
+.hero{
+    background-image: url(/HTML/amazonPROJECT/hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 1417px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.herocaption{
+    width: 1100px;
+    bottom: 315px;
+    position: absolute;
+    background-color: white;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/****  Box - 3 (Main-fotos) ****/
+
+.fotos{
+    height: 810px;
+    width: 1417px;
+    background-color: #cccccc;
+}
+
+/***** FOTO BOX 1 ***/
+
+.fotobox1{
+    height: 370px;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    left: 30px;
+    top: 500px;
+}
+
+.foto1{
+    height: 250px;
+    width: 280px;
+    background-image: url(/HTML/amazonPROJECT/box1_image.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+
+.cloth{
+    font-size: 22px;
+    position: relative;
+    left: 20px;
+    top: 35px
+}
+
+.shop1{
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    position: relative;
+    top: 300px;
+    left: 20px;
+}
+
+.shop1text{
+    text-decoration: none;
+}
+
+
+/***** FOTO BOX 2 ***/
+
+.fotobox2{
+    height: 370px;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    left: 380px;
+    top: 500px;
+}
+
+.foto2{
+    height: 250px;
+    width: 280px;
+    background-image: url(/HTML/amazonPROJECT/box2_image.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 32px;
+    
+}
+
+.health{
+    font-size: 22px;
+    position: relative;
+    left: 20px;
+    top: 35px
+}
+
+.shop2{
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    position: relative;
+    top: 300px;
+    left: 20px;
+}
+
+.shop2text{
+    text-decoration: none;
+}
+
+/***** FOTO BOX 3 ***/
+
+
+.fotobox3{
+    height: 370px;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    left: 730px;
+    top: 500px;
+}
+
+.foto3{
+    height: 250px;
+    width: 280px;
+    background-image: url(/HTML/amazonPROJECT/box3_image.jpg);
+    background-size: cover;
+    position: relative;
+    top: 67px;
+    left: 20px;
+}
+
+.furniture{
+    font-size: 22px;
+    position: absolute;
+    top: 35px;
+    left: 20px
+}
+
+.shop3{
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    position: relative;
+    top: 75px;
+    left: 20px;
+}
+
+.shop3text{
+    text-decoration: none;
+}
+
+/***** FOTO BOX 4 ***/
+
+.fotobox4{
+    height: 370px;
+    width: 310px;
+    background-color: white;
+    position: absolute;
+    left: 1080px;
+    top: 500px;
+}
+
+.foto4{
+    height: 250px;
+    width: 275px;
+    background-image: url(/HTML/amazonPROJECT/box4_image.jpg);
+    background-size: cover;
+    position: relative;
+    top: 43px;
+    left: 12px;
+}
+
+.mobile{
+    font-size: 22px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.shop4{
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.shop4text{
+    text-decoration: none;
+}
+
+/***** FOTO BOX 5 ***/
+
+.fotobox5{
+    height: 370px;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    top: 900px;
+    left: 30px
+}
+
+.foto5{
+    height: 250px;
+    width: 275px;
+    background-image: url(/HTML/amazonPROJECT/box5_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.shop5{
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.shop5text{
+    text-decoration: none;
+}
+
+.makeup{
+    font-size: 22px;
+    position: relative;
+    top: 40px;
+    left: 20px
+}
+
+
+/***** FOTO BOX 6 ***/
+
+.fotobox6{
+    height: 370px;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    top: 900px;
+    left: 380px;
+}
+
+.foto6{
+    height: 250px;
+    width: 275px;
+    background-image: url(/HTML/amazonPROJECT/box6_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 22px;
+    top: 58px;
+}
+
+.animal{
+    font-size: 22px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.shop6{
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.shop6text{
+    text-decoration: none;
+}
+
+/***** FOTO BOX 7 ***/
+
+.fotobox7{
+    height: 370px;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    top: 900px;
+    left: 730px;
+}
+
+.foto7{
+    height: 250px;
+    width: 275px;
+    background-image: url(/HTML/amazonPROJECT/box7_image.jpg);
+    background-size: cover;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.toy{
+    font-size: 22px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.shop7{
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.shop7text{
+    text-decoration: none;
+}
+
+/***** FOTO BOX 8 ***/
+
+.fotobox8{
+    height: 370px;
+    width: 310px;
+    background-color: white;
+    position: absolute;
+    top: 900px;
+    left: 1080px;
+}
+
+.foto8{
+    height: 250px;
+    width: 270px;
+    background-image: url(/HTML/amazonPROJECT/box8_image.jpg);
+    background-size: cover;
+    position: relative;
+    top: 86px;
+    left: 20px
+}
+
+.girls{
+    font-size: 22px;
+    position: relative;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.shop8{
+    height: 30px;
+    width: 90px;
+    background-color: #ffffff;
+    position: relative;
+    top: 86px;
+    left: 20px;
+}
+
+.shop8text{
+    text-decoration: none;
+}
+
+/***** FOOTER ****/
+
+.bottom{
+    width: 1417px;
+    height: 400px;
+    background-color: #333333
+}
+
+/***** FOOTER BOX-1 ****/
+
+.backtotop{
+    width: 1417px;
+    height: 50px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.backtotop:hover{
+    background-color: rgb(152, 152, 242);
+}
+
+.boxtop{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/***** FOOTER BOX-2 ****/
+
+.getToKnow{
+    
+    height: 250px;
+    width: 180px;
+    position: relative;
+    top: 85px;
+    left: 300px;
+}
+.knowustext{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+.careertext{
+    font-size: 13px;
+    color: #cccccc;
+    position: absolute;
+    left: 20px;
+    top: 45px;
+}
+
+.blog{
+    font-size: 13px;
+    color: #cccccc;
+    position: absolute;
+    left: 20px;
+    top: 65px;
+}
+
+.abouttext{
+    font-size: 13px;
+    color: #cccccc;
+    position: absolute;
+    left: 20px;
+    top: 85px;
+}
+
+.investortext{
+    font-size: 13px;
+    color: #cccccc;
+    position: absolute;
+    left: 20px;
+    top: 105px;
+}
+
+.devicetext{
+    font-size: 13px;
+    color: #cccccc;
+    position: absolute;
+    left: 20px;
+    top: 125px;
+}
+
+
+.anish{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    color: white;
+    position: relative;
+    bottom: 225px;
+    left: 750px;
+    background-color: #333333;
+}
+
+.anitext{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anishimg{
+    height: 275px;
+    }
+.anishimg:hover{
+    background-image: url(/HTML/WhatsApp\ Image\ 2024-08-20\ at\ 10.29.40\ PM.jpeg);
+background-size: cover;  
+}

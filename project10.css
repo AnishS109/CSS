@@ -1,0 +1,28 @@
+#an{
+    background-color: black;
+    display: flex;
+    justify-content:center ;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    background-color: aqua;
+}
+#as{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cs{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    background-image: url(/JavaScript/joke.png);
+    backgr
+}

@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(28, 125, 28);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    border-radius: 7px;
+    position: absolute;
+    top: 170px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#CC{
+    color: black;
+    font-size: 25px;
+}
+
+.container1{
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.CVRT{
+    height: 60px;
+    position: relative;
+    top: 40px;
+    right: 140px;
+}
+
+#to{
+    font-size: 20px;
+}
+
+.container2{
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    left: 57px
+}
+
+#res{
+    width: 140px;
+    font-size: 20px;
+    position: relative;
+    top: 35px;
+    right: 240px;
+}
+
+.fromCurrency{
+    position: relative;
+    top: 20px;
+    right: 80px;
+}
+
+.amount{
+    position: relative;
+    top: -15px;
+    left: 97px;
+}
+
+.toCurrency{
+    position: relative;
+    top: 20px;
+    right: 80px;
+}
+
+.convertedAmount{
+    position: relative;
+    right: -97px;
+    top: -15px;
+}

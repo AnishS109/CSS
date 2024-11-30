@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container{
+    width: 400px;
+    height: min-content;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+
+.seacrh-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-box{
+    border: none;
+    font-size: 15px; ;
+    outline: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+#btn{
+    font-size: 17px;
+}
+
+.whether-img{
+    width: 50%;
+}
+

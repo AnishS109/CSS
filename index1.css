@@ -1,0 +1,102 @@
+body{
+    text-align: center;
+}
+    
+    div{
+    background-color: aqua;
+    border: 2px,solid,black;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+hr{
+    border-style: dashed;
+}
+#box1{
+    background-image: url("/CSS/tiger.jpeg");
+    background-size: cover;
+    width: 100px;
+    height: 120px;
+    border: 2px,solid,black;
+    display: inline-block;
+    color: white;
+}
+#box2{
+    background-image: url("/CSS/bear.jpeg");
+    background-size: cover;
+    width: 100px;
+    height: 140px;
+    border: 2px,solid,black;
+    display: inline-block;
+}
+#box3{
+    background-image: url("/CSS/cat.jpeg");
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+    border: 2px,solid,black;
+    display: inline-block;
+}
+#box4{
+    background-image: url("/CSS/lizard.jpeg");
+    background-size: cover;
+    width: 100px;
+    height: 60px;
+    border: 2px,solid,black;
+    display: inline-block;
+}
+#rcb{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: blueviolet;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#rcb:hover{
+    background-image: url("/CSS/lizard.jpeg");
+    background-size: cover;
+    color: chartreuse;
+    font-size: 30px;
+}
+#csk{
+    text-align: center;
+    background-color: darkblue;
+    height: 200px;
+    width:200px;
+    animation-name: myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes myanimation{
+    from {background-color: darkblue}
+    to {background-color: goldenrod;}
+}
+#loader{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 8px;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-left: 1px;
+    animation: loaderani;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: normal;
+}
+
+@keyframes loaderani{
+    from { transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

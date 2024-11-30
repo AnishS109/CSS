@@ -1,0 +1,26 @@
+header{background-color: black;
+    height: 60px;
+    color: white;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+button{
+    background-color: #f08804;
+    color: white;
+}
+a{
+    margin-right: 200px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: rgb(103, 103, 103);
+}

@@ -1,0 +1,24 @@
+body{
+    color: white;
+}
+div{
+    background-color: black;
+    height: 60px;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+button{
+    background-color: #f08804;
+    color: white;
+}
+a{
+    margin-right: 200px;
+}
+#back {
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    background-image: url(/HTML/acropolis.jpeg);
+}

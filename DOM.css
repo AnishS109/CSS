@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+.top {
+    color: black;
+    text-decoration: 2px solid blanchedalmond;
+    font-size: 80px;
+    text-align: center;
+}
+button{
+    background-color: blue;
+    color: white
+}

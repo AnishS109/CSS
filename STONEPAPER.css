@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gametitle{
+    background-color: rgb(9, 57, 59);
+    text-align: center;
+    height: 100px;
+}
+
+#RPS{
+    color: white;
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+.items{
+    height: 200px;
+    width: 600px;
+    background-color: white;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.STONE{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: url(/JavaScript/rock.png);
+    background-size: cover;
+}
+
+.STONE:hover{
+    border: 5px solid red;
+}
+
+.PAPER{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: url(/JavaScript/paper.pnk.png);
+    background-size: cover;
+}
+
+.PAPER:hover{
+    border: 5px solid red;
+}
+
+.SCISSOR{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: url(/JavaScript/scissor.png);
+    background-size: cover;
+}
+
+.SCISSOR:hover{
+    border: 5px solid red;
+}
+
+.score-board{
+    height: 150px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 490px;
+    position: relative;
+    top: 60px;
+}
+
+.score{
+    font-size: 32px;
+}
+
+.msg-container{
+    margin-left: 560px;
+    height: 50px;
+    width: 250px;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    border-radius: 15px;
+}
+
+#message{
+    font-size: 25px;
+}
